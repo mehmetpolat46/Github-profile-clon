@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Mr+Dafoe&display=swap');
+
+.section {
+  margin: 30px 20px 0 20px;
+  display: flex;
+}
+.section-left {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  align-items: center;
+  img {
+    max-width: 300px;
+    border-radius: 50%;
+    border: $bordercolor;
+  }
+  h2 {
+    width: 75%;
+    font-weight: 500;
+  }
+  h3 {
+    width: 75%;
+    font-weight: 300;
+  }
+  .button {
+    width: 75%;
+    height: 35px;
+    border: $bordercolor;
+    border-radius: 6px;
+    margin: 20px 0;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.657);
+    cursor: pointer;
+  }
+  p {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+
+  .left-follow {
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .follow {
+      display: flex;
+      flex-direction: row;
+      font-size: 12px;
+      .dot {
+        margin: 0 5px;
+        width: 2px;
+        height: 2px;
+        background-color: black;
+        border-radius: 50%;
+        position: relative;
+        top: 8px;
+      }
+
+      a {
+        text-decoration: none;
+        color: $light-black;
+        b {
+          color: black;
+        }
+      }
+    }
+    .follow-too {
+      display: flex;
+      align-items: center;
+      img {
+        width: 18px;
+      }
+      span {
+        margin-left: 5px;
+        color: $light-black;
+        cursor: pointer;
+        &:hover {
+          color: $hover-color;
+        }
+        font: {
+          weight: 500;
+          size: 12px;
+        }
+      }
+    }
+    .person-info {
+      color: $light-black;
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin: 15px 0;
+      .eposta,
+      .linkedin,
+      .instagram {
+        a {
+          color: $light-black;
+          text-decoration: none;
+          &:hover {
+            color: $hover-color;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-right {
+  width: 68%;
+  
+  
+  h2 {
+    margin: 35px 0 5px 20px;
+    color: $light-black;
+
+    font: {
+      size: 15px;
+      weight: 400;
+    }
+  }
+  .ilker-info {
+    border: $bordercolor;
+    border-radius: 6px;
+    margin: 20px;
+    color: $light-black;
+    font-size: 15px;
+    padding: 20px;
+    
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+  }
+  .content {
+    height: 100px;
+    border: $bordercolor;
+    border-radius: 6px;
+    margin: 10px;
+    div {
+      padding: 10px 20px;
+      display: flex;
+      a {
+        text-decoration: none;
+        color: $hover-color;
+        font-weight: 600;
+        font-size: 15px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      span {
+        border: $bordercolor;
+        border-radius: 15px;
+        padding: 0 5px;
+        font-size: 12px;
+        font-weight: 700;
+        color: $light-black;
+        align-self: center;
+      }
+      &:first-child {
+        justify-content: space-between;
+      }
+    }
+    .html-info {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      color: $light-black;
+      i {
+        font-size: 15px;
+        margin-right: 5px;
+      }
+
+      h5 {
+        font-weight: 350;
+      }
+
+      .orange-a {
+        padding: 0;
+        margin: 5px 5px;
+        background-color: #e34c26;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+      }
+      p {
+        font-size: 13px;
+        color: $light-black;
+        margin-right: 20px;
+      }
+    }
+  }
+}

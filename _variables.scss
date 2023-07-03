@@ -1,0 +1,13 @@
+$headerbgcolor: #f6f8fa;
+$bordercolor: 1px solid rgb(194, 186, 186);
+$light-black: rgba(47, 47, 47, 0.885);
+$hover-color: #1077c5;
+
+%buttons {
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid rgb(194, 186, 186);
+  padding: 3px;
+  margin: 0 3px;
+  border-radius: 5px;
+}

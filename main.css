@@ -1,0 +1,323 @@
+.header-container header .header-right .right-buttons i, .header-container header .header-left i {
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid rgb(194, 186, 186);
+  padding: 3px;
+  margin: 0 3px;
+  border-radius: 5px;
+}
+
+.header-container {
+  background: #f6f8fa;
+  height: auto;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+  padding-bottom: 18px;
+}
+.header-container header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.header-container header .header-left {
+  display: flex;
+  align-items: center;
+}
+.header-container header .header-left .bi-list {
+  font-size: 18px;
+}
+.header-container header .header-left .bi-github {
+  border: none;
+  font-size: 32px;
+  margin-right: 10px;
+}
+.header-container header .header-left span {
+  font-weight: 500;
+  font-size: 14px;
+}
+.header-container header .header-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.header-container header .header-right i {
+  font-size: 18px !important;
+}
+.header-container header .header-right .search {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(194, 186, 186);
+  padding: 6px;
+  border-radius: 6px;
+  width: 300px;
+  height: 32px;
+}
+.header-container header .header-right .search .bi-search {
+  margin-right: 10px;
+}
+.header-container header .header-right .search input {
+  border: none;
+  outline: none;
+  background: #f6f8fa;
+  width: 100%;
+}
+.header-container header .header-right .border {
+  border: 1px solid rgb(194, 186, 186);
+  height: 21px;
+}
+.header-container header .header-right .right-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header-container header .header-right .right-buttons .bi-caret-down-fill {
+  font-size: 10px !important;
+}
+.header-container header .header-right .right-buttons .plus-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(194, 186, 186);
+  border-radius: 6px;
+}
+.header-container header .header-right .right-buttons .plus-chevron i {
+  border: none;
+}
+.header-container header .header-right img {
+  height: 40px;
+  border: 1px solid rgb(194, 186, 186);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header-container .header-bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 14px;
+}
+.header-container .header-bottom i {
+  font-size: 16px;
+}
+.header-container .header-bottom span {
+  font-size: 14px;
+  margin-right: 8px;
+}
+.header-container .header-bottom .number {
+  margin-left: -12px;
+  padding: 2px;
+  background: #e8ebef;
+  border-radius: 10px;
+}
+.header-container .header-bottom .nav:hover {
+  background: rgba(161, 158, 158, 0.178);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.header-container .header-bottom #border {
+  border-bottom: 2px solid #fd8c73;
+  position: relative;
+  top: 19px;
+}
+
+.header-container header .header-left i, .header-container header .header-right .right-buttons i {
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid rgb(194, 186, 186);
+  padding: 3px;
+  margin: 0 3px;
+  border-radius: 5px;
+}
+
+.section {
+  margin: 30px 20px 0 20px;
+  display: flex;
+}
+
+.section-left {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  align-items: center;
+}
+.section-left img {
+  max-width: 300px;
+  border-radius: 50%;
+  border: 1px solid rgb(194, 186, 186);
+}
+.section-left h2 {
+  width: 75%;
+  font-weight: 500;
+}
+.section-left h3 {
+  width: 75%;
+  font-weight: 300;
+}
+.section-left .button {
+  width: 75%;
+  height: 35px;
+  border: 1px solid rgb(194, 186, 186);
+  border-radius: 6px;
+  margin: 20px 0;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.657);
+  cursor: pointer;
+}
+.section-left p {
+  margin-bottom: 20px;
+  width: 75%;
+}
+.section-left .left-follow {
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-left .left-follow .follow {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+.section-left .left-follow .follow .dot {
+  margin: 0 5px;
+  width: 2px;
+  height: 2px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  top: 8px;
+}
+.section-left .left-follow .follow a {
+  text-decoration: none;
+  color: rgba(47, 47, 47, 0.885);
+}
+.section-left .left-follow .follow a b {
+  color: black;
+}
+.section-left .left-follow .follow-too {
+  display: flex;
+  align-items: center;
+}
+.section-left .left-follow .follow-too img {
+  width: 18px;
+}
+.section-left .left-follow .follow-too span {
+  margin-left: 5px;
+  color: rgba(47, 47, 47, 0.885);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
+}
+.section-left .left-follow .follow-too span:hover {
+  color: #1077c5;
+}
+.section-left .left-follow .person-info {
+  color: rgba(47, 47, 47, 0.885);
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 15px 0;
+}
+.section-left .left-follow .person-info .eposta a,
+.section-left .left-follow .person-info .linkedin a,
+.section-left .left-follow .person-info .instagram a {
+  color: rgba(47, 47, 47, 0.885);
+  text-decoration: none;
+}
+.section-left .left-follow .person-info .eposta a:hover,
+.section-left .left-follow .person-info .linkedin a:hover,
+.section-left .left-follow .person-info .instagram a:hover {
+  color: #1077c5;
+  text-decoration: underline;
+}
+
+.section-right {
+  width: 68%;
+}
+.section-right h2 {
+  margin: 35px 0 5px 20px;
+  color: rgba(47, 47, 47, 0.885);
+  font-size: 15px;
+  font-weight: 400;
+}
+.section-right .ilker-info {
+  border: 1px solid rgb(194, 186, 186);
+  border-radius: 6px;
+  margin: 20px;
+  color: rgba(47, 47, 47, 0.885);
+  font-size: 15px;
+  padding: 20px;
+}
+.section-right .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+}
+.section-right .content {
+  height: 100px;
+  border: 1px solid rgb(194, 186, 186);
+  border-radius: 6px;
+  margin: 10px;
+}
+.section-right .content div {
+  padding: 10px 20px;
+  display: flex;
+}
+.section-right .content div a {
+  text-decoration: none;
+  color: #1077c5;
+  font-weight: 600;
+  font-size: 15px;
+}
+.section-right .content div a:hover {
+  text-decoration: underline;
+}
+.section-right .content div span {
+  border: 1px solid rgb(194, 186, 186);
+  border-radius: 15px;
+  padding: 0 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(47, 47, 47, 0.885);
+  align-self: center;
+}
+.section-right .content div:first-child {
+  justify-content: space-between;
+}
+.section-right .content .html-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: rgba(47, 47, 47, 0.885);
+}
+.section-right .content .html-info i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.section-right .content .html-info h5 {
+  font-weight: 350;
+}
+.section-right .content .html-info .orange-a {
+  padding: 0;
+  margin: 5px 5px;
+  background-color: #e34c26;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.section-right .content .html-info p {
+  font-size: 13px;
+  color: rgba(47, 47, 47, 0.885);
+  margin-right: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}/*# sourceMappingURL=main.css.map */
